@@ -27,4 +27,5 @@ for k in range(n_clusters_):
     plt.plot(X[my_members, 0], X[my_members, 1], '.')
 
 plt.title('Estimated number of clusters: %d' % n_clusters_)
+#changed to 3d display
 plt.show()
